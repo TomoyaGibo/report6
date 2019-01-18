@@ -23,7 +23,7 @@ class LivingThing {
 
         random = Math.random();
 
-        if (!dead) {
+        if (dead == false) {
             if ((now_hitPoint / hitPoint) < 0.3 && random < 0.3) {
                 damage = (int) (Math.random() * attack * 1.5);
                 System.out.printf("%sの攻撃！%sに%dの大ダメージを与えた！\n", name, livingThing.name, damage);
