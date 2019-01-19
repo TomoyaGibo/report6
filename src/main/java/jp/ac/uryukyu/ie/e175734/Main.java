@@ -2,8 +2,8 @@ package jp.ac.uryukyu.ie.e175734;
 
 public class Main {
     public static void main(String[] args) {
-        Hero hero = new Hero("勇者", 6, 5);
-        Enemy enemy = new Enemy("スライム", 6, 5);
+        Hero hero = new Hero("勇者", 10, 3);
+        Enemy enemy = new Enemy("スライム", 10, 3);
 
         System.out.printf("%s vs %s\n", hero.name, enemy.name);
 
