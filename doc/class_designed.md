@@ -8,6 +8,7 @@
 - 名前（String）
 - 生死状態（boolean）
 - 現在の体力（int）
+- 逃走判定（boolean）
 
 ### メソッド
 - attackメソッド
