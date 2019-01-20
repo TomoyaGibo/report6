@@ -1,5 +1,8 @@
 package jp.ac.uryukyu.ie.e175734;
 
+/**
+ * Created by TomoyaGibo on 2019/01/22
+ */
 public class Main {
     public static void main(String[] args) {
         Hero hero = new Hero("勇者", 10, 3);

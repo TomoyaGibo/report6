@@ -1,5 +1,8 @@
 package jp.ac.uryukyu.ie.e175734;
 
+/**
+ * 敵クラス。
+ */
 class Enemy extends LivingThing {
     Enemy (String name, int hitPoint, int attack){
         super(name, hitPoint, attack);
