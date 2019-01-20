@@ -51,7 +51,7 @@ class LivingThing {
 
     void escape(double random, double perHitPoint) {
         if (dead == false && escape == false) {
-            if (perHitPoint <= 0.3 && random <= 0.3) {
+            if (random <= 0.3 && perHitPoint <= 0.3) {
                 escape = true;
                 System.out.printf("%sは逃走に成功した。\n", name);
                 System.out.printf("%sの勝利！\n", name);
