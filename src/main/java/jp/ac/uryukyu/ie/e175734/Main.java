@@ -8,7 +8,7 @@ public class Main {
         System.out.printf("%s vs %s\n", hero.name, enemy.name);
 
         int turn = 0;
-        while (hero.dead == false && enemy.dead == false){
+        while (hero.dead == false && enemy.dead == false && hero.escape == false && enemy.escape == false){
             turn++;
             System.out.printf("%dターン目開始！\n", turn);
             hero.attack(enemy);
